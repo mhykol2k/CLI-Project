@@ -1,4 +1,4 @@
-name: E2E in container
+name: E2E in Container
 on: [workflow_dispatch]
 jobs:
   cypress-run:
