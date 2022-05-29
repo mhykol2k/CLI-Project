@@ -1,13 +1,13 @@
-import React from 'react'
-import { useRouter } from 'next/router'
+import React from 'react';
+import { useRouter } from 'next/router';
 
-const notFoundPage = () => {
-    const router = useRouter()
+const NotFoundPage = () => {
+    const router = useRouter();
 
     React.useEffect(() => {
-        router.replace('/')
-    })
+        router.replace('/');
+    });
     return null;
-}
+};
 
-export default notFoundPage
+export default NotFoundPage;
