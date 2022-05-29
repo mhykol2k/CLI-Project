@@ -1,7 +1,7 @@
 describe("render the homepage elements", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:3000")
-    //  cy.visit("https://mhykol.dev")
+        // cy.visit("http://localhost:3000")
+        cy.visit("https://mhykol.dev")
     })
     it("help menu is visible", () => {
         cy.get("#help").should("exist")
@@ -15,7 +15,8 @@ describe("render the homepage elements", () => {
 })   
 describe("commands", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:3000")
+        // cy.visit("http://localhost:3000")
+        cy.visit("https://mhykol.dev")
     })
     it("help", () => {
         cy.get("#prompt").should("exist")
@@ -146,7 +147,8 @@ describe("commands", () => {
 })
 describe("API", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:3000")
+        // cy.visit("http://localhost:3000")
+        cy.visit("https://mhykol.dev")
     })
     it("quote", () => {
         cy.get("#prompt").should("exist")
