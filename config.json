@@ -1,0 +1,34 @@
+{
+    "readmeUrl": "https://raw.githubusercontent.com/mhykol2k/mhykol2k/master/README.md",
+    "title": "Michael McLain",
+    "name": "Michael McLain",
+    "ascii": "MHYKOL",
+    "social": {
+        "github": "mhykol2k",
+        "linkedin": "michaeljmclain"
+    },
+    "email": "michael@mclain.co.uk",
+    "ps1_hostname": "mhykol2k-portfolio",
+    "ps1_username": "visitor",
+    "repo": "https://github.com/mhykol2k",
+    "resume_url": "https://mhykol2k.github.io/markdown-cv",
+    "colors": {
+        "light": {
+            "background": "#1c2023",
+            "foreground": "#c7ccd1",
+            "yellow": "#aec795",
+            "green": "#95c7ae",
+            "gray": "#c7ccd1",
+            "blue": "#95aec7"
+        },
+        "dark": {
+            "background": "#1c202b",
+            "foreground": "#f7f7f7",
+            "yellow": "#b93485",
+            "green": "#47bfee",
+            "gray": "#c8c8c8",
+            "blue": "0598bc",
+            "red": "#e8bbd0"
+        }
+    }
+}
