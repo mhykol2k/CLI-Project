@@ -99,9 +99,10 @@ export const user = async (args: string[]): Promise<string> => {
 
 export const socials = async (args: string[]): Promise<string> => {
   return `
-  Twitter : https://twitter.com/mhykol2k
-  Steam   : https://steamcommunity.com/id/mhykol2k
-  GitHub  : https://github.com/mhykol2k
+  Twitter  : https://twitter.com/mhykol2k or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.twitter}" target="_blank">here</a></u>
+  Steam    : https://steamcommunity.com/id/mhykol2k or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.steam}" target="_blank">here</a></u>
+  GitHub   : https://github.com/mhykol2k or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.github}" target="_blank">here</a></u>
+  LinkedIn : https://www.linkedin.com/ln/mhykol2k or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.linkedin}" target="_blank">here</a></u>
   `;
 };
 
