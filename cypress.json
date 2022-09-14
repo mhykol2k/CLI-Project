@@ -2,5 +2,6 @@
     "baseURL": "https://localhost:3000",
     "experimentalStudio": true,
     "viewportWidth": 750,
-    "viewportHeight": 750
+    "viewportHeight": 750,
+        "defaultCommandTimeout": 5000
 }
